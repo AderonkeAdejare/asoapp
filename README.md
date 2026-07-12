@@ -1,4 +1,5 @@
-AsoApp
+# AsoApp
+
 **The cultural bridal coordination app for Nigerian weddings.**
 
 AsoApp is a mobile-first bridal coordination app built for brides planning traditional Yoruba Nigerian weddings and brides marrying into Nigerian families. The app brings together style discovery, aso ebi coordination, vendor connection, and cultural education in one dedicated platform - giving brides the tools to visualize their look, coordinate fabric and style choices across their entire wedding party, and find vetted tailors and fabric vendors with confidence. Built for the Nigerian diaspora in the US, AsoApp fills a gap that generic wedding platforms have missed: a culturally specific, community-centered experience that honors the richness of Nigerian wedding traditions while solving real logistical challenges for modern brides and their families.
