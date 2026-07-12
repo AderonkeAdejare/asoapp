@@ -53,53 +53,13 @@ Expanding: Nigeria (Lagos, Abuja) and United Kingdom (London)
 - Budget tracker
 - Native mobile app (React Native)
 
----
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/ "source-reference") v20+
-- [npm](https://www.npmjs.com/ "source-reference") v10+
-- [Git](https://git-scm.com/ "source-reference")
-
-### Installation
-
-1. Clone the repository:
-
-bash
-git clone https://github.com/yourusername/asoapp.git
-cd asoapp
-Install dependencies:
-npm install
-Start the development server:
-npm start
-Open your browser to:
-http://localhost:3000
-
-### Project Structure
-asoapp/
-├── public/
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Full page views (Home, Quiz, Vendors, etc.)
-│ ├── data/ # Static style and cultural content data
-│ ├── hooks/ # Custom React hooks
-│ ├── styles/ # Global styles and theme variables
-│ └── App.js # Root component and routing
-├── docs/
-│ └── AsoApp_PRD_v1.3.md
-├── README.md
-└── package.json
-
 ## Contributing
 AsoApp welcomes contributions from cultural consultants and Nigerian wedding professionals. Please contact Aderonke Adejare at aderonke@aoadigitalstories.com to add your input. 
 
 ## Contact
 Built by Aderonke Adejare
-LinkedIn · Portfolio
+
+[LinkedIn](linkedin.com/in/aderonkeadejare) · [Portfolio](aderonkeadejare.com/#portfolio)
 
 ## License
 This project is licensed under the MIT License.
