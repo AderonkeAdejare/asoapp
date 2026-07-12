@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+AsoApp
+**The cultural bridal coordination app for Nigerian weddings.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AsoApp is a mobile-first bridal coordination app built for brides planning traditional Yoruba Nigerian weddings and brides marrying into Nigerian families. The app brings together style discovery, aso ebi coordination, vendor connection, and cultural education in one dedicated platform - giving brides the tools to visualize their look, coordinate fabric and style choices across their entire wedding party, and find vetted tailors and fabric vendors with confidence. Built for the Nigerian diaspora in the US, AsoApp fills a gap that generic wedding platforms have missed: a culturally specific, community-centered experience that honors the richness of Nigerian wedding traditions while solving real logistical challenges for modern brides and their families.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Style Quiz** - Personalized Yoruba bridal style recommendations based on ceremony type, aesthetic preferences, and budget *(in progress)*
+- **Aso Ebi Coordinator** - Fabric and style coordination tools for the full wedding party *(TBD)*
+- **Vendor Directory** - Vetted tailors, fabric vendors, and gele artists across the US, Nigeria, and UK *(TBD)*
+- **Cultural Education Hub** - Guides on traditional garments, ceremonies, and Yoruba wedding customs *(TBD)*
+- **Lookbook** - Curated bridal inspiration organized by ceremony type and style archetype *(TBD)*
+- **Budget Tracker** - Cost management tools specific to traditional Nigerian wedding needs *(TBD)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Target Markets
+Primary: Nigerian diaspora brides in the United States
+Expanding: Nigeria (Lagos, Abuja) and United Kingdom (London) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Layer | Technology |
+|-------|-----------|
+| Frontend + Styling | React, Tailwind CSS |
+| Backend + AI Recommendations | Node.js, Claude Code (Anthropic API) |
+| Database | Firebase |
+| Deployment | Vercel |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Roadmap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Phase 1 - MVP (Current)
+- [x] Project scaffolding and setup
+- Style quiz - static logic (in progress)
+- Lookbook with curated styles
+- Cultural Education Hub
+- Mobile-responsive UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Phase 2 - AI + Vendors
+- AI-powered style recommendations via Claude API
+- Vendor directory with search and filtering
+- Aso ebi coordination tools
+- User accounts and saved looks
 
-### `npm run eject`
+### Phase 3 - Community + Scale
+- Nigeria and UK market expansion
+- Community reviews and vendor ratings
+- Budget tracker
+- Native mobile app (React Native)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Make sure you have the following installed:
 
-## Learn More
+- [Node.js](https://nodejs.org/ "source-reference") v20+
+- [npm](https://www.npmjs.com/ "source-reference") v10+
+- [Git](https://git-scm.com/ "source-reference")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
 
-### Code Splitting
+bash
+git clone https://github.com/yourusername/asoapp.git
+cd asoapp
+Install dependencies:
+npm install
+Start the development server:
+npm start
+Open your browser to:
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Project Structure
+asoapp/
+├── public/
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Full page views (Home, Quiz, Vendors, etc.)
+│ ├── data/ # Static style and cultural content data
+│ ├── hooks/ # Custom React hooks
+│ ├── styles/ # Global styles and theme variables
+│ └── App.js # Root component and routing
+├── docs/
+│ └── AsoApp_PRD_v1.3.md
+├── README.md
+└── package.json
 
-### Analyzing the Bundle Size
+## Contributing
+AsoApp welcomes contributions from cultural consultants and Nigerian wedding professionals. Please contact Aderonke Adejare at aderonke@aoadigitalstories.com to add your input. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
+Built by Aderonke Adejare
+LinkedIn · Portfolio
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
